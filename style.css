@@ -1,0 +1,251 @@
+@font-face {
+    font-family: Gabarito;
+    src: url(./assets/fonts/Gabarito-Regular.woff2);
+}
+
+@font-face {
+    font-family: Zodiak;
+    src: url(./assets/fonts/Zodiak-Regular.woff2);
+}
+
+@font-face {
+    font-family: Zodiak-Light;
+    src: url(./assets/fonts/Zodiak-Light.woff2);
+}
+
+@font-face {
+    font-family: Amiza;
+    src: url(./assets/fonts/Amiza.woff2);
+}
+
+html {
+    background: #EAEAEA;
+    width: 100%;
+    height: 100%;
+}
+
+#fullpage {
+    position: inherit;
+    z-index: 0;
+}
+
+.navbar {
+    position: inherit;
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    height: 77px;
+    border-bottom: 2px #222222 solid;
+    font-family: Gabarito;
+    font-size: 25px;
+    z-index: 5;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-inline: 35px;
+    color: #222222;
+}
+
+.section {
+    margin-top: -3.5%;
+}
+
+
+/* Tela de início */
+.inicio {
+    display: flex;
+    margin-inline: 5%;
+}
+
+.inicio a {
+    color: #222222;
+    text-decoration: none;
+}
+
+.expo {
+    width: calc(373px - 2%);
+    height: calc(560px - 2%);
+    margin-right: 5%;
+}
+
+.inicio-right {
+    font-family: Zodiak-Light;
+    color: #222;
+    margin-inline-end: auto;
+}
+
+.inicio-right img {
+    margin-bottom: 35%;
+}
+
+.inicio-right h1 {
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: -3.5px;
+    margin: 0;
+}
+
+.inicio-right a {
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 1%;
+    border-bottom: 1px #222 solid;
+}
+
+/* Tela de Produtos */
+.logo{
+    rotate: -90deg;
+    position: absolute;
+    top: 75%;
+    left: 3%;
+}
+
+.produtos {
+    margin-top: -3%;
+    margin-inline: 15%;
+}
+
+.thumb {
+    width: 500px;
+    height: calc(450px + 4px);
+    margin-right: 44px;
+}
+
+.thumb-2 {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.thumb-2:first-child {
+    margin-bottom: 50px;
+}
+
+.grid {
+    display: flex;
+}
+
+.infos {
+    font-family: Gabarito;
+}
+
+.title {
+    color: #222;
+    font-size: 19px;
+    font-weight: 600;
+    margin: auto;
+}
+
+.subTitle {
+    color: #BFBFBF;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    margin: auto;
+}
+
+.preco {
+    color: #222;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 0.95px;
+    margin: auto;
+}
+
+/* Artes */
+.artes {
+    margin-inline: 5%;
+}
+
+.logo2{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.grid:nth-child(2) {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.gridbox {
+    margin-left: 38px;
+}
+
+.thumb-grid {
+    width: 306px;
+}
+
+/* Sobre */
+.sobre {
+    margin-inline: 5%;
+}
+
+.logo3{
+    position: absolute;
+    top: 2%;
+    left: 4.5%;
+}
+
+.sobre-infos {
+    font-family: Zodiak;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 5%;
+}
+
+.sobre-infos img {
+    width: 40%;
+    float: right;
+    margin: 22px;
+}
+
+.sobre-infos p {
+    text-align: justify;
+}
+
+.logo-text h1:first-child {
+    position: absolute;
+    font-family: Amiza;
+    font-size: 78px;
+    color: #F5F5F5;
+    font-weight: 400;
+    z-index: 2;
+}
+
+.logo-text h1:last-child {
+    position: absolute;
+    font-family: Amiza;
+    font-size: 78px;
+    -webkit-text-stroke: #222222 24px;
+    z-index: 1;
+}
+
+.footer {
+    width: 100%;
+    height: 24px;
+    position: absolute;
+    background-color: #EAEAEA;
+    border-top: 2px #222222 solid;
+    bottom: 0;
+    z-index: 5;
+
+    font-family: Gabarito;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
+}
+
+.footer a {
+    color: #222222;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-inline: 2%;
+}
